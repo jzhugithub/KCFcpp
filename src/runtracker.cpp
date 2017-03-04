@@ -104,6 +104,7 @@ void on_mouse(int event,int x,int y,int flags,void *ustc)
 	}
 
 	imshow("img",tmp);
+	//waitKey(1);
 }
 int main(int argc, char* argv[]){
 
